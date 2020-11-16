@@ -5,9 +5,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+
+import lombok.Data;
+
 import java.util.List;
 
 @Entity
+@Data
 public class Medico {
 
     @Id
